@@ -13,18 +13,117 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\uicode">
+      <UniqueIdentifier>{34420d5e-52cd-4cbb-8a44-5dbbb12a37a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\uicode.h">
+      <UniqueIdentifier>{536e29ef-adfd-4073-ba1d-48d638ff9d4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AuxiliaryClass">
+      <UniqueIdentifier>{e7b9dad8-ff5f-4a27-8111-59898a951ab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataClassCode">
+      <UniqueIdentifier>{99b58dc4-836b-4f7c-874b-8c9cb7ab5368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DataClass.h">
+      <UniqueIdentifier>{f5281b9b-de9a-4752-8acf-f5043736308a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\AuxiliaryClass.h">
+      <UniqueIdentifier>{dcd0002b-fea7-4071-aaee-403182031d2a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="filemanager.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="AstraEngine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mainpage.cpp">
+      <Filter>源文件\uicode</Filter>
+    </ClCompile>
+    <ClCompile Include="gamepage.cpp">
+      <Filter>源文件\uicode</Filter>
+    </ClCompile>
+    <ClCompile Include="save_loadpage.cpp">
+      <Filter>源文件\uicode</Filter>
+    </ClCompile>
+    <ClCompile Include="filemanager.cpp">
+      <Filter>源文件\DataClassCode</Filter>
+    </ClCompile>
+    <ClCompile Include="savedatamanager.cpp">
+      <Filter>源文件\DataClassCode</Filter>
+    </ClCompile>
+    <ClCompile Include="InputBox.cpp">
+      <Filter>源文件\AuxiliaryClass</Filter>
+    </ClCompile>
+    <ClCompile Include="saveloadbox.cpp">
+      <Filter>源文件\uicode</Filter>
+    </ClCompile>
+    <ClCompile Include="selectpage.cpp">
+      <Filter>源文件\uicode</Filter>
+    </ClCompile>
+    <ClCompile Include="ChapterPage.cpp">
+      <Filter>源文件\uicode</Filter>
+    </ClCompile>
+    <ClCompile Include="textbox.cpp">
+      <Filter>源文件\AuxiliaryClass</Filter>
+    </ClCompile>
+    <ClCompile Include="windowinformation.cpp">
+      <Filter>源文件\AuxiliaryClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Ascii_image.cpp">
+      <Filter>源文件\AuxiliaryClass</Filter>
+    </ClCompile>
+    <ClCompile Include="AsciiArtResource.cpp">
+      <Filter>源文件\AuxiliaryClass</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="filemanager.h">
+    <ClInclude Include="AstraEngine.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mainpage.h">
+      <Filter>头文件\uicode.h</Filter>
+    </ClInclude>
+    <ClInclude Include="gamepage.h">
+      <Filter>头文件\uicode.h</Filter>
+    </ClInclude>
+    <ClInclude Include="save_loadpage.h">
+      <Filter>头文件\uicode.h</Filter>
+    </ClInclude>
+    <ClInclude Include="savedatamanager.h">
+      <Filter>头文件\DataClass.h</Filter>
+    </ClInclude>
+    <ClInclude Include="filemanager.h">
+      <Filter>头文件\DataClass.h</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBox.h">
+      <Filter>头文件\AuxiliaryClass.h</Filter>
+    </ClInclude>
+    <ClInclude Include="saveloadbox.h">
+      <Filter>头文件\uicode.h</Filter>
+    </ClInclude>
+    <ClInclude Include="selectpage.h">
+      <Filter>头文件\uicode.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChapterPage.h">
+      <Filter>头文件\uicode.h</Filter>
+    </ClInclude>
+    <ClInclude Include="windowinformation.h">
+      <Filter>头文件\AuxiliaryClass.h</Filter>
+    </ClInclude>
+    <ClInclude Include="textbox.h">
+      <Filter>头文件\AuxiliaryClass.h</Filter>
+    </ClInclude>
+    <ClInclude Include="AsciiArtResource.h">
+      <Filter>头文件\AuxiliaryClass.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Ascii_image.h">
+      <Filter>头文件\AuxiliaryClass.h</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioPlayer.h">
+      <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

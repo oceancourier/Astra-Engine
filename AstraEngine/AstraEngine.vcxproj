@@ -104,10 +104,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>C:\Users\HP\source\repos\AstraEngine\mediaplayer</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -127,11 +130,38 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AsciiArtResource.cpp" />
+    <ClCompile Include="Ascii_image.cpp" />
+    <ClCompile Include="ChapterPage.cpp" />
     <ClCompile Include="filemanager.cpp" />
+    <ClCompile Include="gamepage.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="AstraEngine.cpp" />
+    <ClCompile Include="mainpage.cpp" />
+    <ClCompile Include="savedatamanager.cpp" />
+    <ClCompile Include="saveloadbox.cpp" />
+    <ClCompile Include="save_loadpage.cpp" />
+    <ClCompile Include="selectpage.cpp" />
+    <ClCompile Include="textbox.cpp" />
+    <ClCompile Include="windowinformation.cpp" />
+    <ClCompile Include="InputBox.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AsciiArtResource.h" />
+    <ClInclude Include="Ascii_image.h" />
+    <ClInclude Include="AstraEngine.h" />
+    <ClInclude Include="AudioPlayer.h" />
+    <ClInclude Include="ChapterPage.h" />
     <ClInclude Include="filemanager.h" />
+    <ClInclude Include="gamepage.h" />
+    <ClInclude Include="InputBox.h" />
+    <ClInclude Include="mainpage.h" />
+    <ClInclude Include="savedatamanager.h" />
+    <ClInclude Include="saveloadbox.h" />
+    <ClInclude Include="save_loadpage.h" />
+    <ClInclude Include="selectpage.h" />
+    <ClInclude Include="textbox.h" />
+    <ClInclude Include="windowinformation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
